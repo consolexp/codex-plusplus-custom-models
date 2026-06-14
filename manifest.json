@@ -1,0 +1,26 @@
+{
+  "id": "io.github.consolexp.custom-models",
+  "name": "Custom Models",
+  "version": "0.1.0",
+  "githubRepo": "consolexp/codex-plusplus-custom-models",
+  "description": "Read Codex model choices from a custom OpenAI-compatible /v1/models endpoint.",
+  "author": {
+    "name": "consolexp",
+    "url": "https://github.com/consolexp"
+  },
+  "homepage": "https://github.com/consolexp/codex-plusplus-custom-models",
+  "iconUrl": "./icon.svg",
+  "tags": [
+    "models",
+    "provider",
+    "productivity"
+  ],
+  "scope": "both",
+  "main": "index.js",
+  "permissions": [
+    "settings",
+    "ipc",
+    "filesystem",
+    "network"
+  ]
+}
